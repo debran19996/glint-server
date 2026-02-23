@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { kvGet, kvSet } from "../lib/kv.js";
+import { kvGet, kvSet } from "../lib/kv";
 
 const TROY_OZ_TO_GRAMS = 31.1035;
 const STALE_THRESHOLD_MS = 5 * 60 * 1000; // 5 minutes

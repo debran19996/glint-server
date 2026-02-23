@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { kvSet, kvGet } from "../../lib/kv.js";
+import { kvSet, kvGet } from "../../lib/kv";
 
 const TROY_OZ_TO_GRAMS = 31.1035;
 
